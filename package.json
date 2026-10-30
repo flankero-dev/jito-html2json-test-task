@@ -1,0 +1,11 @@
+{
+  "name": "jito-html2json-task",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dependency-free HTML to JSON converter for the Jito trainee test task",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check html2json.js",
+    "benchmark": "node benchmarks/malformed-input.js"
+  }
+}
